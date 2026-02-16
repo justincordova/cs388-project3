@@ -1,11 +1,13 @@
 package com.example.cs388project3
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
@@ -33,7 +35,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         rvMovies = findViewById(R.id.rvMovies)
-        rvMovies.layoutManager = LinearLayoutManager(this)
+
+        val isLandscape = resources.configuration.orientation == android.content.res.Configuration.ORIENTATION_LANDSCAPE
+        rvMovies.layoutManager = if (isLandscape) {
+            androidx.recyclerview.widget.GridLayoutManager(this, 2)
+        } else {
+            LinearLayoutManager(this)
+        }
 
         fetchNowPlayingMovies()
     }
