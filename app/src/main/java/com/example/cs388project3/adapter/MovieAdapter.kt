@@ -38,6 +38,7 @@ class MovieAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<Movie
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .centerCrop()
+                .override(200, 300)
                 .into(ivPoster)
         }
     }
