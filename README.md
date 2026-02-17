@@ -109,7 +109,13 @@ The app follows a clean architecture with the following components:
 
 ## Screenshots
 
-<!-- Add screenshots of your app here -->
+![Glide placeholder implementation](./glide-0.png)
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![App walkthrough](./project3.gif)
 
 ## Features
 
