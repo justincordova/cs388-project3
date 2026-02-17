@@ -19,27 +19,19 @@ The following **optional** features are implemented:
 - [x] Improve and customize the user interface through styling and coloring
 - [x] Implement orientation responsivity
   - App should neatly arrange data in both landscape and portrait mode
-- [x] Implement Glide to display placeholder graphics during loading
-  - Note: this feature is difficult to capture in a GIF without throttling internet speeds. Instead, include an additional screenshot of your Glide code implementing this feature. (<10 lines of code)
 
-The following **additional** features are implemented:
+## Screenshots
 
-- [ ] List anything else that you can get done to improve the app functionality!
+![Glide placeholder implementation](./glide-0.png)
 
-## Video Walkthrough
+![App walkthrough](./project3.gif)
 
-Here's a walkthrough of implemented user stories:
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+![Landscape layout](./project3_horiz.gif)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- Manual Parcelable implementation used instead of @Parcelize due to AGP 9.0.1 compatibility issues
+- Custom placeholder drawables not implemented due to build compatibility (uses default ic_launcher_foreground)
 
 ## License
 
@@ -69,7 +61,7 @@ Describe any challenges encountered while building the app.
 
 1. Clone this repository
 2. Open in Android Studio
-3. Build the project
+3. Build: project
 4. Run on an Android device or emulator
 
 ### API Configuration
@@ -107,16 +99,6 @@ The app follows a clean architecture with the following components:
 - [Gson](https://github.com/google/gson) - Java serialization/deserialization library
 - [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview) - Flexible view for providing a limited window into a large data set
 
-## Screenshots
-
-![Glide placeholder implementation](./glide-0.png)
-
-### Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-![App walkthrough](./project3.gif)
-
 ## Features
 
 - Browse currently playing movies from TMDB
@@ -145,7 +127,7 @@ Potential improvements for future versions:
 ## Known Issues
 
 - Manual Parcelable implementation used instead of @Parcelize due to AGP 9.0.1 compatibility issues
-- Custom placeholder drawables not implemented (uses default ic_launcher_foreground)
+- Custom placeholder drawables not implemented due to build compatibility (uses default ic_launcher_foreground)
 - No loading state indicator
 - No user feedback for API failures
 
