@@ -28,9 +28,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Normal layout](./project3.gif)
+<img src="./project3.gif" width="400">
 
-![Landscape layout](./project3_horiz.gif)
+<img src="./project3_horiz.gif" width="600">
 
 ## Notes
 
