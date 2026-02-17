@@ -22,13 +22,13 @@ The following **optional** features are implemented:
 
 ## Screenshots
 
-![Glide placeholder implementation](./glide-0.png)
+![Glide placeholder implementation](./glide.png)
 
 ### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![Landscape layout](./project3_horiz.gif)
+![Normal layout](./project3.gif)
 
 ![Landscape layout](./project3.gif)
 
@@ -144,3 +144,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [The Movie Database API Documentation](https://www.themoviedb.org/documentation/api)
 - [Android Developers Guide](https://developer.android.com/guide)
 - [Material Design Guidelines](https://material.io/design)
+
