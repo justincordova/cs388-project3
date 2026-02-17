@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 ![Normal layout](./project3.gif)
 
-![Landscape layout](./project3.gif)
+![Landscape layout](./project3_horiz.gif)
 
 ## Notes
 
