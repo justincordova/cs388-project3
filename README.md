@@ -24,9 +24,13 @@ The following **optional** features are implemented:
 
 ![Glide placeholder implementation](./glide-0.png)
 
-![App walkthrough](./project3.gif)
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
 
 ![Landscape layout](./project3_horiz.gif)
+
+![Landscape layout](./project3.gif)
 
 ## Notes
 
