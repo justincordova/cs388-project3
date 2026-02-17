@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="./project3.gif" width="400">
+<img src="./project3.gif" width="300">
 
 <img src="./project3_horiz.gif" width="600">
 
@@ -144,4 +144,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [The Movie Database API Documentation](https://www.themoviedb.org/documentation/api)
 - [Android Developers Guide](https://developer.android.com/guide)
 - [Material Design Guidelines](https://material.io/design)
-
